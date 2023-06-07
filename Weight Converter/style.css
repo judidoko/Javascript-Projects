@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #1c2b2b;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --magenta: #9d0191;
+    --pure-orange: #db6400;
+    --grey: #eeeeee;
+    --dark-grey: #222831;
+    --green: #006400;
+}
+
+ body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--grey);
+}
+
+
+
+/* Conversion Formula */
+
+ /* -- From pounds to -- 
+    kilograms = x / 2.2046
+    grams = x / 0.0022046
+    ounces = x * 16
+ */
+
+ /* -- From Kilogram to -- 
+    pounds = X * 2.2046
+    grams = x * 1000
+    ounces = x * 35.274 
+ */
+
+ /* -- From Gram to -- 
+    Kilograms = x / 1000
+    pounds = x / 0.0022046
+    ounces = x / 0.035274
+ */
+
+ /* -- form Ounce to --
+    kilograms = x / 35.274
+    grams = x / 0.035274
+    Pounds = x * 0.0625
+ */

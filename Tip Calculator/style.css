@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #1c2b2b;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --magenta: #9d0191;
+    --pure-orange: #db6400;
+    --grey: #eeeeee;
+    --dark-grey: #222831;
+    --green: #006400;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light-blue);
+}
+
+p {
+    font-size: 1.6rem;
+    list-style: 1.5;
+}
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calc {
+    width: 40rem;
+    background-color: var(--white);
+}
+
+h2 {
+    font-size: 4rem;
+    color: var(--white);
+    background-color: var(--magenta);
+    text-align: center;
+    padding: 1rem;
+}
+
+form,
+form > * {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    border-bottom: 1px solid var(--magenta);
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,
+select {
+    font-size: 1.6rem;
+    padding: 7px;
+    width: 20rem;
+    text-align: right;
+}
+
+.btn {
+    margin: 5px 0;
+    background-color: var(--pure-orange);
+    color: var(--white);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--light-blue );
+    color: var(--white);
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.result {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.result > * {
+    background-color: var(--grey);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.total {
+    color: var(--green);
+}
